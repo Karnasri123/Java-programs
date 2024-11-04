@@ -1,0 +1,13 @@
+package loops;
+
+public class stringpalindrome {
+
+	public static void main(String[] args) {
+		String name="sreekanth";
+		System.out.println(name.length());
+		System.out.println(name.charAt('t'));
+
+
+	}
+
+}

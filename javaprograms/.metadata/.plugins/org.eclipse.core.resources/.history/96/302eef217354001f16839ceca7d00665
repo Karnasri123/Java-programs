@@ -1,0 +1,22 @@
+package com.slokam1;
+
+public class test1 {
+	public void m2()
+	{
+		int c=5;
+		int d=3;
+		System.out.println(c-d);
+	}
+
+	public static void main(String[] args) {
+		/*test s=new test();*/
+		
+		test1 t1=new test1();
+		t1.m2();
+		
+		test t=new test();
+		t.m1();
+		
+		}
+
+}

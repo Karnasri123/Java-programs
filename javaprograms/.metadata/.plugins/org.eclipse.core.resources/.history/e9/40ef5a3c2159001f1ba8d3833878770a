@@ -1,0 +1,21 @@
+package overriding;
+
+public class child extends parent {
+	@Override
+	 protected void m1()//static/private methods cannot be over rided.
+	{
+		System.out.println("child calss");
+	}
+	public void m2()
+	{
+		System.out.println("parent class");
+	}
+
+	public static void main(String[] args) {
+		child a=new child();
+		a.m1();
+		a.m2();
+		
+	}
+
+}

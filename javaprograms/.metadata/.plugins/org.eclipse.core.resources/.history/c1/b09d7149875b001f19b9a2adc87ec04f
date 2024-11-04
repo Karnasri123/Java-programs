@@ -1,0 +1,17 @@
+package encapulation1;
+
+public class test {
+	public static void main(String[]args) {
+		
+		person a=new person();
+		a.setPid(1);
+		a.setPname("sree");
+		a.setPage(25);
+		System.out.println(a.getPid());
+		System.out.println(a.getPname());
+		System.out.println(a.getPage());
+	
+	
+	}
+
+}

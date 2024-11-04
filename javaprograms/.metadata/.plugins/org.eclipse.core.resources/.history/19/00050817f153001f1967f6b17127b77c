@@ -1,0 +1,31 @@
+
+public class practice1 {
+	void test(practice s)
+	{
+		System.out.println(s.sid);
+		System.out.println(s.name);
+		System.out.println(s.marks);
+		System.out.println(s.qual);
+	}
+
+	public static void main(String[] args) {
+		practice1 a=new practice1();
+		practice b=new practice();
+		b.sid=1;
+		b.name="ranga";
+		b.marks=98.5;
+		b.qual=true;
+		practice c=new practice();
+		c.sid=2;
+		c.name="neelima";
+		c.marks=85;
+		c.qual=true;
+		
+		a.test(b);
+		a.test(c);
+		
+		
+		
+	}
+
+}

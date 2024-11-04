@@ -1,0 +1,15 @@
+package springsbasic;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		manager m=new manager();
+		m.dowork();
+		teamlead t=new teamlead();
+		m.setT1(t);
+		m.dowork();
+		
+
+	}
+
+}

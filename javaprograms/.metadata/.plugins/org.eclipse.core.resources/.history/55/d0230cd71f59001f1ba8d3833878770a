@@ -1,0 +1,13 @@
+package overriding;
+
+public class parent {
+	public static void m1()
+	{
+		System.out.println("super calss");
+	}
+	public void m2()
+	{
+		System.out.println("parent class");
+	}
+
+}

@@ -1,0 +1,58 @@
+
+public class classmethod {
+	double a;
+	double b;
+	double c;
+	void add() {
+		System.out.println("add method");
+		//a=10;
+		//b=25;
+		//c=30;
+		System.out.println(a+b+c);
+	}
+	void sub()
+	{
+		System.out.println("sub method");
+		a=10;
+		b=10;
+		c=10;
+		System.out.println((a-b)-c);
+	}
+	void mul()
+	{
+		System.out.println("multiplication method");
+		System.out.println(a*b*c);
+	}
+	void div()
+	{
+		System.out.println("division method");
+		System.out.println((a*b)/c);
+	}
+	void mod()
+	{
+		System.out.println("modules method");
+		System.out.println((a*b)%c);
+	}
+
+	public static void main(String[] args) {
+		classmethod m=new classmethod();
+		System.out.println(m.a);
+		System.out.println(m.b);
+		m.add();
+		m.sub();
+		m.mul();
+		m.div();
+		m.mod();
+		classmethod n=new classmethod();
+		System.out.println(n.a);
+		System.out.println(n.b);
+		n.add();
+		n.sub();
+		n.mul();
+		n.div();
+		n.mod();
+
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package quesmaping;
+
+import java.util.HashMap;
+
+public class hashmap {
+
+	public static void main(String[] args) {
+		HashMap<String,Integer> m=new HashMap();
+		m.put("sri",100);
+		m.put("ram",101);
+		m.put("raji",102);
+		m.put("srija",101);
+		m.put("hanuma",103);
+		m.put("laxman",104);
+		System.out.println(m);
+
+	}
+
+}

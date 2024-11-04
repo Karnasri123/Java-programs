@@ -1,0 +1,17 @@
+package com.slokam1;
+
+public class test2 {
+	 void m1()
+	{
+	int sid;
+	 String sname;
+	String sloc;
+    double smarks;
+	int sage;
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

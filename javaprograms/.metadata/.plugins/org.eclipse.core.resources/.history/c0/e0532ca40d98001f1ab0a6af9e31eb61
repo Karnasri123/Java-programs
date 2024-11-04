@@ -1,0 +1,46 @@
+package project;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+
+public class stdcontroller {
+	public List<studentpojo> readdata(String filepath)
+	{
+		try {
+			FileReader fr= new FileReader(filepath);
+		    BufferedReader br=new BufferedReader(fr);
+		    for(String sd=br.readLine();sd!=null;sd=br.readLine())
+			{
+				String data[]=sd.split(",");
+				
+			      System.out.println(data[0]);
+			      System.out.println(data[1]);
+			      System.out.println(data[2]);
+			      System.out.println(data[3]);
+			      System.out.println(data[4]);
+			      System.out.println("-----------------------------------");
+				
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+
+	public static void main(String[] args) {
+		
+	/*List<studentpojo> s=new ArrayList();
+	s.add(new studentpojo(1,"sri",24,67.8,"mca"));
+	s.add(new studentpojo(2,"ram",27,97.8,"mba"));
+	s.add(new studentpojo(3,"hanuma",22,87.8,"ca"));
+	s.add(new studentpojo(4,"laxman",21,77.8,"cma"));*/
+		stdcontroller c= new stdcontroller();
+		c.readdata("E:\\file reader\\New Text Document.txt");
+	
+	}
+
+}

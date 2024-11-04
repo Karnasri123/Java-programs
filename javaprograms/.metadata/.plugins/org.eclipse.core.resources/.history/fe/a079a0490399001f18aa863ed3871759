@@ -1,0 +1,35 @@
+package project2;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.List;
+
+public class empcontroller {
+	public List<employeepojo> readdata(String path)
+	{
+		try {
+			FileReader fr=new FileReader(path);
+			BufferedReader br=new BufferedReader(fr);
+			for(String s=br.readLine();s!=null;s=br.readLine())
+			{
+				employeepojo e=new employeepojo();
+				String data[]=s.split(s);
+				e.setEid(Integer.valueOf(data[0]));
+				e.setEname(data[1]);
+				e.setEage(Integer.valueOf(data[2]));
+				e.setEsal(Double.valueOf(data[3]));
+				e.setEloc(data[0]);
+				
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class practice1 {
+	void test(practice s)
+	{
+		System.out.println(s);
+	}
+
+	public static void main(String[] args) {
+		practice1 a=new practice1();
+		practice b=new practice();
+		a.test(b);
+		
+	}
+
+}

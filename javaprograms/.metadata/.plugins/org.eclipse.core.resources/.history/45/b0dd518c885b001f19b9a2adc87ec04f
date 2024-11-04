@@ -1,0 +1,25 @@
+package encapulation1;
+
+public class test {
+	public static void main(String[]args) {
+		
+		person a=new person();
+		a.setPid(1);
+		a.setPname("sree");
+		a.setPage(25);
+		System.out.println(a.getPid());
+		System.out.println(a.getPname());
+		System.out.println(a.getPage());
+	
+		aadhar b=new aadhar();
+		b.setAid(1);
+		b.setAnum(56788);
+		b.setAadd("kadapa");
+		System.out.println(b.getAid());
+		System.out.println(b.getAnum());
+		System.out.println(b.getAadd());
+	
+	
+	}
+
+}

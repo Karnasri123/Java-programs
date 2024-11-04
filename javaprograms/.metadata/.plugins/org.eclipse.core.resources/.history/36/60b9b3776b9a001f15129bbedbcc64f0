@@ -1,0 +1,13 @@
+package springsbasic;
+
+public class manager {
+	private teamlead t1;
+	public void dowork(){
+		System.out.println("Manager work started");
+		t1.dowork();
+		System.out.println("manager work completed");
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.slokam1;
+
+public class test1 {
+	public static void main(String[] args) {
+		test2 a=new test2();
+		a.m1();
+		
+		
+		}
+
+}
